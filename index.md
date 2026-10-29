@@ -21,7 +21,7 @@ La app guarda en tu teléfono un registro técnico de fallos, de hasta 128 KiB, 
 - **Estado del teléfono (READ_PHONE_STATE):** detectar una llamada para pausar la sesión. Es opcional. No se leen números, contactos ni contenido de llamadas, y no se guarda nada de eso.
 
 ## Voz
-Los avisos por voz usan el motor de texto a voz de tu teléfono. Tabahiito no envía texto ni audio a ningún servicio propio.
+Los avisos por voz usan el motor de texto a voz de tu teléfono y solo voces instaladas que funcionan sin conexión en español, inglés o portugués. Se prefiere una voz de tu idioma y región; si no está disponible, se usa otra voz compatible sin conexión y la app te avisa qué idioma o acento va a usar. El texto hablado coincide con el idioma de esa voz. Si no hay ninguna voz compatible sin conexión, la app lo informa y conserva tu preferencia de voz. Si la voz era el único canal de aviso efectivo que elegiste, bloquea el inicio o pausa la sesión hasta que habilites otro canal o apagues la voz de forma explícita. No descarga voces ni usa voces que requieren red. Tabahiito no envía texto ni audio a ningún servicio propio.
 
 ## Cómo borrar tus datos
 En **Ajustes > Restablecer datos** se borran rutinas, historial, ajustes y el registro de errores. También se borran al desinstalar la app. La copia temporal que se crea al compartir el registro se reemplaza al exportar de nuevo y se elimina al próximo inicio de la app.
